@@ -6,13 +6,14 @@ import Link from 'next/link'
 import { useDropzone } from 'react-dropzone'
 import ColorThief from 'colorthief'
 import colorNamer from 'color-namer'
-import { Button, ButtonProps } from "@/components/ui/button"
+import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardFooter, CardHeader } from "@/components/ui/card"
-import { CloudIcon, AlertCircle, CopyIcon, CheckIcon, EyeIcon } from "lucide-react"
+import { CloudIcon, AlertCircle, CopyIcon, CheckIcon, EyeIcon, Download } from "lucide-react"
 import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert"
 import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "@/components/ui/tooltip"
+import { Slider } from "@/components/ui/slider"
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
-import ColorInfo from '@/components/ui/color-info'
+import ColorInfo from "@/components/ui/color-info"
 
 function TwitterIcon(props: React.SVGProps<SVGSVGElement>) {
   return (
